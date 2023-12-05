@@ -1,3 +1,49 @@
-#product{
+#app{
   background-color: blue;
+}
+
+
+#shopping{
+  color : red;
+}
+
+.cart{
+  background-color: rgb(244, 242, 240);
+}
+/* App.css */
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#product-name {
+  margin-bottom: 8px;
+}
+
+#product-img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 8px;
+}
+
+#product-price {
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: Times;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-color: #4caf50;
 }

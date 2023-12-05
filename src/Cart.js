@@ -1,5 +1,6 @@
   import React from 'react';
   import Calculate from "./Calculate.js";
+  import'./App.css';
  
 
 
